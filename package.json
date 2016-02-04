@@ -1,0 +1,17 @@
+{
+  "name": "ikue-shovel",
+  "version": "1.0.0",
+  "description": "Shovel ikue jobs from one broker to another (or the same) and apply some changes to the jobs",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.2.1",
+    "config": "^1.19.0",
+    "ikue": "0.0.10",
+    "lodash": "^4.2.1"
+  }
+}

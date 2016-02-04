@@ -1,0 +1,14 @@
+
+servers:
+  - name: default
+    uri: amqp://guest:guest@127.0.01/%2F
+
+shovels:
+  - name: default
+    src:
+      worker_id: event_name
+      server: default
+
+    dest:
+      worker_id: event_name2
+      server: default
