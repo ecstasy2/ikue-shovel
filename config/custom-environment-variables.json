@@ -9,6 +9,15 @@
         "appName": "Y_SERVERS_0_IKUE_APPNAME",
         "component": "Y_SERVERS_0_IKUE_COMPONENT"
       }
+    },
+    "1": {
+      "name": "Y_SERVERS_1_NAME",
+      "uri": "Y_SERVERS_1_URI",
+      "apiPort": "Y_SERVERS_1_APIPORT",
+      "ikue": {
+        "appName": "Y_SERVERS_1_IKUE_APPNAME",
+        "component": "Y_SERVERS_1_IKUE_COMPONENT"
+      }
     }
   },
   "shovels": {

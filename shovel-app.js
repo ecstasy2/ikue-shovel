@@ -14,6 +14,8 @@ var Shovel = require('./lib/shovel');
 var allQueueMgrs = {};
 var allShovels = {};
 
+console.log(config);
+
 function createServer(server) {
   assert.ok(server.ikue.component, 'server.ikue.component is required');
   assert.ok(server.ikue.appName, 'server.ikue.name is required');
@@ -55,7 +57,7 @@ function connectToServer(queueMgr) {
 }
 
 function createShovelQueues() {
-  var shovels = config.shovels;
+  var shovels = _.values(config.shovels);
   return Promise.map(shovels, function(shovel) {
     logger.info('Creating shovel queues for shovel', shovel.name);
 

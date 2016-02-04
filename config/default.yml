@@ -9,6 +9,14 @@ servers:
       appName: ~
       component: ~
 
+  - name: default
+    uri: amqp://guest:guest@127.0.01/%2F
+    apiPort: 15672
+
+    ikue:
+      appName: ~
+      component: ~
+
 shovels:
   - name: default
     src:
