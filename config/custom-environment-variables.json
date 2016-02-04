@@ -1,0 +1,27 @@
+{
+  "appName": "Y_APPNAME",
+  "servers": {
+    "0": {
+      "name": "Y_SERVERS_0_NAME",
+      "uri": "Y_SERVERS_0_URI",
+      "apiPort": "Y_SERVERS_0_APIPORT",
+      "ikue": {
+        "appName": "Y_SERVERS_0_IKUE_APPNAME",
+        "component": "Y_SERVERS_0_IKUE_COMPONENT"
+      }
+    }
+  },
+  "shovels": {
+    "0": {
+      "name": "Y_SHOVELS_0_NAME",
+      "src": {
+        "worker_id": "Y_SHOVELS_0_SRC_WORKER_ID",
+        "server": "Y_SHOVELS_0_SRC_SERVER"
+      },
+      "dest": {
+        "worker_id": "Y_SHOVELS_0_DEST_WORKER_ID",
+        "server": "Y_SHOVELS_0_DEST_SERVER"
+      }
+    }
+  }
+}

@@ -4,14 +4,18 @@
   "description": "Shovel ikue jobs from one broker to another (or the same) and apply some changes to the jobs",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cev": "($(npm bin)/cev -p Y > config/custom-environment-variables.json)"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.2.1",
+    "bunyan": "^1.5.1",
     "config": "^1.19.0",
+    "config-cev-generator": "^0.1.4",
     "ikue": "0.0.10",
+    "js-yaml": "^3.5.2",
     "lodash": "^4.2.1"
   }
 }
