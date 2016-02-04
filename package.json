@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
+    "start": "node shovel-app.js",
     "cev": "($(npm bin)/cev -p Y > config/custom-environment-variables.json)"
   },
   "author": "",
